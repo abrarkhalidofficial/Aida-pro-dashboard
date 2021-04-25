@@ -94,9 +94,18 @@ export default function MessagesPanel() {
                 <MessageTimeStamp />
                 <MessageLogedInUser />
                 <MessageOther />
+                <MessageTimeStamp />
+                <MessageOther />
+                <MessageLogedInUser />
+                <MessageOther />
+                <MessageTimeStamp />
+                <MessageLogedInUser />
+                <MessageTimeStamp />
+                <MessageLogedInUser />
+                <MessageOther />
               </Col>
             </Row>
-            <Row style={{ paddingLeft: "1em" }}>
+            <Row style={{ padding: "1em", backgroundColor: "#f3f9f9" }}>
               <Form className="massenger__form">
                 <Form.Control
                   type="text"
