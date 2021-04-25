@@ -3,6 +3,8 @@ import "./CompanyDetails.scss";
 import { Nav, Col, Row } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Posting from "./Posting";
+import PostingDetails from "./PostingDetails";
+import UserProfile from "./UserProfileCompany";
 
 export default function CompanyDetails() {
   return (
@@ -75,6 +77,12 @@ export default function CompanyDetails() {
           </Route>
           <Route path="/dashboard/companies/details/hold">
             <Posting />
+          </Route>
+          <Route path="/dashboard/companies/details/posting-details">
+            <PostingDetails />
+          </Route>
+          <Route path="/dashboard/companies/details/applicant-details">
+            <UserProfile />
           </Route>
           <Route path="/dashboard/companies/details/company-details">aoa</Route>
           <Route path="/dashboard/companies/details/plans-payments">hi</Route>

@@ -48,35 +48,35 @@ export default function PostingRows({ status }) {
           </Row>
           <Row className="table__data__row">
             <Nav.Link
-              to="/home-company/posting/details"
+              to="/dashboard/companies/details/applicant-details"
               as={Link}
               className="title table__data"
             >
               <Col>Sales Manager</Col>
             </Nav.Link>
             <Nav.Link
-              to="/home-company/posting/details"
+              to="/dashboard/companies/details/applicant-details"
               as={Link}
               className="applicants table__data"
             >
               <Col>10</Col>
             </Nav.Link>
             <Nav.Link
-              to="/home-company/posting/details"
+              to="/dashboard/companies/details/applicant-details"
               as={Link}
               className="interested table__data"
             >
               <Col>2</Col>
             </Nav.Link>
             <Nav.Link
-              to="/home-company/posting/details"
+              to="/dashboard/companies/details/applicant-details"
               as={Link}
               className="visitors table__data"
             >
               <Col>7</Col>
             </Nav.Link>
             <Nav.Link
-              to="/home-company/posting/details"
+              to="/dashboard/companies/details/applicant-details"
               as={Link}
               className="date-created table__data"
             >
@@ -86,7 +86,7 @@ export default function PostingRows({ status }) {
               <Status value={status} />
             </Col>
             <Nav.Link
-              to="/home-company/posting/details"
+              to="/dashboard/companies/details/applicant-details"
               as={Link}
               className="applicants table__data"
             >
