@@ -39,3 +39,19 @@
   padding: 2em;
   background-color: #ffffff;
 }
+
+.panel__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.panel__heading {
+  border-bottom: 3px solid $primary;
+  padding-bottom: 0.8em;
+  margin-bottom: 1em;
+  font-size: $heading-font-size;
+  color: $font-color;
+  font-weight: 600;
+}

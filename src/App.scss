@@ -77,4 +77,59 @@ p {
   color: $font-color;
 }
 
+.nav__link__horizontal {
+  background-color: $primary;
+  color: $dark;
+  font-size: $normal-font-size;
+  border: 1px solid $primary;
+  margin-bottom: 1em;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+.nav__link__horizontal:hover {
+  background-color: $light-green;
+  color: $dark;
+  border-bottom-color: $dark;
+}
+.panel__main__heading__row {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  background-color: $primary;
+  border-radius: 10px;
+}
+.panel__main__heading__row__entry {
+  min-width: fit-content;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  color: #b3b8bd;
+  font-size: $normal-font-size;
+  font-weight: 800;
+}
+.panel__main__row {
+  display: flex !important;
+  align-items: center !important;
+  padding: 0.7em 1em !important;
+  background-color: $primary !important;
+  border-radius: 10px !important;
+  background-color: #ffffff !important;
+  cursor: pointer;
+  margin: 0.3em 0em;
+}
+.panel__main__row:hover {
+  background-color: $primary !important;
+}
+.panel__main__row__entry {
+  min-width: fit-content;
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: $normal-font-size;
+  color: $font-color;
+}
+
 @import "~bootstrap/scss/bootstrap";
