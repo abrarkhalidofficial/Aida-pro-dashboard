@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Col,
-  Row,
-  Nav,
-  Card,
-  Button,
-  Container,
-  Form,
-  FormControl,
-} from "react-bootstrap";
+import { Col, Row, Nav, Card } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./UserProfile.scss";
 import UserPic from "../assets/userPic.png";
@@ -16,7 +7,6 @@ import placeholderpic from "../assets/HomeCompanyaddpic.png";
 import linkedinicon from "../assets/linkedin-auth-icon.png";
 import googleicon from "../assets/google-auth-icon.png";
 import facebookicon from "../assets/facebook-auth-icon.png";
-import samplePDF from "../assets/sample.pdf";
 function isAddItemVideoCall() {
   document.querySelector(".add__item__skill").style.display = "flex";
 }
@@ -28,8 +18,48 @@ function closeFormVideoCall() {
 export default class UserProfile extends React.Component {
   render() {
     return (
-      <Col style={{ padding: "0em 4em", flex: "1" }}>
+      <Col style={{ flex: "1" }}>
         <Row>
+          <Col
+            style={{
+              padding: ".5em 0em",
+              maxWidth: "fit-content",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
+            <Nav.Link
+              as={Link}
+              to="/dashboard/freelancer"
+              className="screen__back__btn"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20.556 17.629"
+              >
+                <g
+                  id="_507257"
+                  data-name="507257"
+                  transform="translate(0 -31.842)"
+                >
+                  <g
+                    id="Group_506"
+                    data-name="Group 506"
+                    transform="translate(0 31.842)"
+                  >
+                    <path
+                      id="Path_753"
+                      data-name="Path 753"
+                      d="M19.32,39.213a1.469,1.469,0,0,0-.254-.019H4.564l.316-.147a2.941,2.941,0,0,0,.831-.588l4.067-4.067a1.522,1.522,0,0,0,.213-1.949,1.471,1.471,0,0,0-2.206-.191L.431,39.606a1.471,1.471,0,0,0,0,2.08h0l7.354,7.354a1.471,1.471,0,0,0,2.206-.147,1.522,1.522,0,0,0-.213-1.949L5.718,42.871a2.942,2.942,0,0,0-.735-.537l-.441-.2H18.984A1.522,1.522,0,0,0,20.536,40.9,1.471,1.471,0,0,0,19.32,39.213Z"
+                      transform="translate(0 -31.842)"
+                      fill="#15878c"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </Nav.Link>
+          </Col>
           <Col
             style={{
               padding: "0em",
@@ -42,23 +72,19 @@ export default class UserProfile extends React.Component {
               src={UserPic}
               alt="profile-pic"
               className="profile-pic"
-              style={{ width: "100px", marginRight: "1em" }}
+              style={{ width: "50px", marginRight: "1em" }}
             />
           </Col>
           <Col
             style={{
-              padding: "0em 2em",
               maxWidth: "fit-content",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              marginRight: "2em",
+              marginRight: "1em",
             }}
           >
             <Row className="user-profile-name">John James</Row>
-            <Row className="user-profile-email">
-              <span className="online-status"></span> online
-            </Row>
           </Col>
           <Col
             style={{
@@ -71,8 +97,8 @@ export default class UserProfile extends React.Component {
           >
             <Nav.Link
               as={Link}
-              to="/home-company/massenger"
-              style={{ width: "fit-content", height: "fit-content" }}
+              to="/dashboard/messages"
+              className="user__profile__messanger"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -105,10 +131,18 @@ export default class UserProfile extends React.Component {
               Profile
             </Nav.Link>
             <Nav.Link
-              to="/dashboard/freelancer/details/work-Experience"
+              to="/dashboard/freelancer/details/applied"
               as={Link}
               className="nav__link__horizontal"
               eventKey="link-1"
+            >
+              Applied
+            </Nav.Link>
+            <Nav.Link
+              to="/dashboard/freelancer/details/work-Experience"
+              as={Link}
+              className="nav__link__horizontal"
+              eventKey="link-2"
             >
               Work Experience
             </Nav.Link>
@@ -116,7 +150,7 @@ export default class UserProfile extends React.Component {
               to="/dashboard/freelancer/details/project-portfolio"
               as={Link}
               className="nav__link__horizontal"
-              eventKey="link-2"
+              eventKey="link-3"
             >
               Project Portfolio
             </Nav.Link>
@@ -124,7 +158,7 @@ export default class UserProfile extends React.Component {
               to="/dashboard/freelancer/details/education"
               as={Link}
               className="nav__link__horizontal"
-              eventKey="link-3"
+              eventKey="link-4"
             >
               Education
             </Nav.Link>
@@ -132,7 +166,7 @@ export default class UserProfile extends React.Component {
               to="/dashboard/freelancer/details/contact"
               as={Link}
               className="nav__link__horizontal"
-              eventKey="link-4"
+              eventKey="link-5"
             >
               Contact
             </Nav.Link>
@@ -453,6 +487,80 @@ export default class UserProfile extends React.Component {
                   </Col>
                 </Row>
               </Col>
+            </Route>
+            <Route path="/dashboard/freelancer/details/applied">
+              <div className="panel__main__freelancer" style={{ flex: 1 }}>
+                <div className="panel__main__heading__row">
+                  <div className="panel__main__heading__row__entry">
+                    Company
+                  </div>
+                  <div className="panel__main__heading__row__entry">
+                    Projects
+                  </div>
+                  <div className="panel__main__heading__row__entry">Date</div>
+                  <div className="panel__main__heading__row__entry">Status</div>
+                </div>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Pending</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Completed</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Pending</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Completed</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Pending</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Completed</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Pending</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Completed</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Pending</div>
+                </Nav.Link>
+                <Nav.Link className="panel__main__row">
+                  <div className="panel__main__row__entry">Company Name</div>
+                  <div className="panel__main__row__entry">Project X</div>
+                  <div className="panel__main__row__entry">6/3/12</div>
+                  <div className="panel__main__row__entry">Completed</div>
+                </Nav.Link>
+              </div>
             </Route>
             <Route path="/dashboard/freelancer/details/work-Experience">
               <Col style={{ padding: "0em" }}>

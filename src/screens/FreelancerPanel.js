@@ -2,7 +2,7 @@ import React from "react";
 import "./FreelancerPanel.scss";
 import { Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import UserProfile from "./UserProfile";
+import UserProfile from "./UserProfileFreelancer";
 
 export default function FreelancerPanel() {
   return (
@@ -149,6 +149,60 @@ export default function FreelancerPanel() {
               <div className="panel__main__row__entry">20</div>
               <div className="panel__main__row__entry">California</div>
             </Nav.Link>
+            <div className="page__slider">
+              <div className="slider">
+                <Nav variant="pills" defaultActiveKey="/dashboard/freelancer">
+                  <Nav.Link
+                    to="/dashboard/freelancer"
+                    href="/dashboard/freelancer"
+                    as={Link}
+                    className="nav__link__horizontal"
+                  >
+                    1
+                  </Nav.Link>
+                  <Nav.Link
+                    to="/dashboard/freelancer"
+                    as={Link}
+                    className="nav__link__horizontal"
+                    eventKey="link-1"
+                  >
+                    2
+                  </Nav.Link>
+                  <Nav.Link
+                    to="/dashboard/freelancer"
+                    as={Link}
+                    className="nav__link__horizontal"
+                    eventKey="link-2"
+                  >
+                    3{" "}
+                  </Nav.Link>
+                  <Nav.Link
+                    to="/dashboard/freelancer"
+                    as={Link}
+                    className="nav__link__horizontal"
+                    eventKey="link-3"
+                  >
+                    4{" "}
+                  </Nav.Link>
+                  <Nav.Link
+                    to="/dashboard/freelancer"
+                    as={Link}
+                    className="nav__link__horizontal"
+                    eventKey="link-4"
+                  >
+                    5
+                  </Nav.Link>
+                  <Nav.Link
+                    to="/dashboard/freelancer"
+                    as={Link}
+                    className="nav__link__horizontal"
+                    eventKey="link-5"
+                  >
+                    6
+                  </Nav.Link>
+                </Nav>
+              </div>
+            </div>
           </div>
         </Route>
         <Route path="/dashboard/freelancer/details">

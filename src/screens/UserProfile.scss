@@ -1,41 +1,28 @@
 @import "../App.scss";
 
 .user-profile-name {
-  font-size: $heading-font-size + 2px;
+  font-size: $heading-font-size;
   color: $dark;
   font-weight: 600;
   display: flex;
   align-items: center;
 }
-.online-status {
-  width: 20px;
-  height: 20px;
-  border-radius: 30px;
-  background-color: #09c956;
-  margin-right: 0.5em;
-}
-.user-profile-email {
-  font-size: $normal-font-size;
-  color: $font-color;
-}
-.user-profile-btn {
-  height: 90px;
-  width: fit-content;
-  min-width: 100px;
-  background-color: $light-green !important;
-  color: $dark !important;
-}
-.user-profile-btn:hover {
+.user__profile__messanger {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
   background-color: $dark !important;
   color: $primary !important;
+  font-size: $normal-font-size !important;
+  border-radius: 5px;
 }
-.user-profile-btn svg {
+.user__profile__messanger svg {
   width: 15px;
   height: 15px;
+  margin-right: 0.5em;
 }
-.user-profile-btn-text {
-  margin-top: 0.5em;
-  font-size: 12px;
+.user__profile__messanger:hover {
+  background-color: darken($dark, 10%) !important;
 }
 .card-box {
   background-color: $light-green !important;
