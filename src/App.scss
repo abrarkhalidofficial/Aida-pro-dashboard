@@ -54,4 +54,27 @@ p {
   background-color: darken($dark, 10%) !important;
 }
 
+.nav__link__vertical {
+  background-color: transparent;
+  font-size: $normal-font-size;
+  color: $font-color;
+  padding: 0.7em 1em !important;
+  border-radius: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 0.5em !important;
+  white-space: nowrap;
+}
+
+.nav__link__vertical svg {
+  margin-right: 1em;
+  width: 20px;
+  height: 20px;
+}
+
+.nav__link__vertical:hover {
+  background-color: darken($primary, 10%);
+  color: $font-color;
+}
+
 @import "~bootstrap/scss/bootstrap";
