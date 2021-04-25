@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row, Button, Nav, Form } from "react-bootstrap";
 import "./Posting.scss";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PostingRow from "../components/PostingRow";
 
 export default class Posting extends React.Component {
@@ -146,6 +146,9 @@ export default class Posting extends React.Component {
           <PostingRow status="live" />
           <PostingRow status="hold" />
           <PostingRow status="closed" />
+          <PostingRow status="live" />
+          <PostingRow status="live" />
+          <PostingRow status="live" />
           <PostingRow status="live" />
         </Col>
       </>

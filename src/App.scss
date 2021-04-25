@@ -136,8 +136,8 @@ p {
 .screen__back__btn {
   background-color: transparent !important;
   border-radius: 50px !important;
-  width: 50px !important;
-  height: 50px !important;
+  width: 40px !important;
+  height: 40px !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -145,8 +145,9 @@ p {
   margin-right: 1em;
 }
 .screen__back__btn svg {
-  width: 20px;
-  height: 20px;
+  width: 30px !important;
+  height: 30px !important;
+  transform: scale(2);
 }
 .screen__back__btn:hover {
   background-color: $primary !important;
