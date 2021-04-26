@@ -75,7 +75,7 @@ export default function PaymentsPanel() {
           <Row>
             <Switch>
               <Route path="/dashboard/payments" exact>
-                <div className="panel__main__freelancer" style={{ flex: 1 }}>
+                <div className="panel__main__payments" style={{ flex: 1 }}>
                   <div className="panel__main__heading__row">
                     <div className="panel__main__heading__row__entry">
                       Transaction ID
@@ -89,165 +89,105 @@ export default function PaymentsPanel() {
                       Amount
                     </div>
                   </div>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">1325440</div>
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
@@ -258,18 +198,18 @@ export default function PaymentsPanel() {
                     <div className="slider">
                       <Nav
                         variant="pills"
-                        defaultActiveKey="/dashboard/jobseeker"
+                        defaultActiveKey="/dashboard/payments"
                       >
                         <Nav.Link
-                          to="/dashboard/jobseeker"
-                          href="/dashboard/jobseeker"
+                          to="/dashboard/payments"
+                          href="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                         >
                           1
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-1"
@@ -277,7 +217,7 @@ export default function PaymentsPanel() {
                           2
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-2"
@@ -285,7 +225,7 @@ export default function PaymentsPanel() {
                           3
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-3"
@@ -293,7 +233,7 @@ export default function PaymentsPanel() {
                           4
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-4"
@@ -301,7 +241,7 @@ export default function PaymentsPanel() {
                           5
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-5"
@@ -314,7 +254,7 @@ export default function PaymentsPanel() {
                 </div>
               </Route>
               <Route path="/dashboard/payments/pending">
-                <div className="panel__main__freelancer" style={{ flex: 1 }}>
+                <div className="panel__main__payments" style={{ flex: 1 }}>
                   <div className="panel__main__heading__row">
                     <div className="panel__main__heading__row__entry">
                       Company Name
@@ -325,151 +265,91 @@ export default function PaymentsPanel() {
                       Amount
                     </div>
                   </div>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
                     <div className="panel__main__row__entry">50$</div>
                   </Nav.Link>
-                  <Nav.Link
-                    as={Link}
-                    to="/dashboard/jobseeker/details"
-                    className="panel__main__row"
-                  >
+                  <Nav.Link className="panel__main__row">
                     <div className="panel__main__row__entry">DSME.co</div>
                     <div className="panel__main__row__entry">6/4/21</div>
                     <div className="panel__main__row__entry">Plan Name</div>
@@ -479,18 +359,18 @@ export default function PaymentsPanel() {
                     <div className="slider">
                       <Nav
                         variant="pills"
-                        defaultActiveKey="/dashboard/jobseeker"
+                        defaultActiveKey="/dashboard/payments"
                       >
                         <Nav.Link
-                          to="/dashboard/jobseeker"
-                          href="/dashboard/jobseeker"
+                          to="/dashboard/payments"
+                          href="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                         >
                           1
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-1"
@@ -498,7 +378,7 @@ export default function PaymentsPanel() {
                           2
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-2"
@@ -506,7 +386,7 @@ export default function PaymentsPanel() {
                           3
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-3"
@@ -514,7 +394,7 @@ export default function PaymentsPanel() {
                           4
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-4"
@@ -522,7 +402,7 @@ export default function PaymentsPanel() {
                           5
                         </Nav.Link>
                         <Nav.Link
-                          to="/dashboard/jobseeker"
+                          to="/dashboard/payments"
                           as={Link}
                           className="nav__link__horizontal"
                           eventKey="link-5"
