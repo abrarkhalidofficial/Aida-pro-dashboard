@@ -9,7 +9,7 @@ export default class SideBar extends React.Component {
         <div className="side__bar__heading">Admin Panel Aida</div>
         <Nav
           variant="pills"
-          className="flex-column"
+          className="sidebar__links"
           defaultActiveKey="/dashboard"
         >
           <Nav.Item>

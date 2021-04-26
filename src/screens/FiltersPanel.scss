@@ -39,7 +39,7 @@
 }
 
 .filter__input__form__input__field {
-  width: 400px;
+  width: 300px;
   margin-right: 0.5em;
 }
 
@@ -81,4 +81,13 @@
   background-color: $font-color;
   color: $primary;
   border-color: $font-color;
+}
+
+@media (max-width: 700px) {
+  .filter__input__form__input__field {
+    width: 150px;
+  }
+  .filter__input__form__input__field__cta {
+    width: fit-content;
+  }
 }
