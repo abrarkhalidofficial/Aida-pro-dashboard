@@ -9,6 +9,8 @@ import CompanyPanel from "./CompanyPanel";
 import FiltersPanel from "./FiltersPanel";
 import MessagesPanel from "./MessagesPanel";
 import PaymentsPanel from "./PaymentsPanel";
+import UsersManagerPanel from "./UsersManagerPanel";
+import AnalysisPanel from "./AnalysisPanel";
 
 export default function Dashboard() {
   return (
@@ -29,10 +31,10 @@ export default function Dashboard() {
             <CompanyPanel />
           </Route>
           <Route path="/dashboard/users-manager">
-            <CompanyPanel />
+            <UsersManagerPanel />
           </Route>
           <Route path="/dashboard/analysis">
-            <CompanyPanel />
+            <AnalysisPanel />
           </Route>
           <Route path="/dashboard/messages">
             <MessagesPanel />
