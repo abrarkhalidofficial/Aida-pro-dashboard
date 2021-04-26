@@ -8,6 +8,7 @@ import JobSeekerPanel from "./JobSeekerPanel";
 import CompanyPanel from "./CompanyPanel";
 import FiltersPanel from "./FiltersPanel";
 import MessagesPanel from "./MessagesPanel";
+import PaymentsPanel from "./PaymentsPanel";
 
 export default function Dashboard() {
   return (
@@ -37,7 +38,7 @@ export default function Dashboard() {
             <MessagesPanel />
           </Route>
           <Route path="/dashboard/payments">
-            <CompanyPanel />
+            <PaymentsPanel />
           </Route>
           <Route path="/dashboard/plans">
             <CompanyPanel />

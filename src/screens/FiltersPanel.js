@@ -51,26 +51,15 @@ export default function FiltersPanel() {
                   <FilterInputForm heading="Languages" />
                 </div>
               </Route>
-              <Route path="/dashboard/filters/jobseeker" exact>
+              <Route path="/dashboard/filters/jobseeker">
                 <div className="filter__content">
                   <FilterInputForm heading="Skills" />
-                  <FilterInputForm heading="Industries Worked In" />
-                  <FilterInputForm heading="Experience Level" />
-                  <FilterInputForm heading="Job Type" />
-                  <FilterInputForm heading="Education" />
-                  <FilterInputForm heading="Availability" />
-                  <FilterInputForm heading="Languages" />
                 </div>
               </Route>
-              <Route path="/dashboard/filters/freelancer" exact>
+              <Route path="/dashboard/filters/freelancer">
                 <div className="filter__content">
-                  <FilterInputForm heading="Skills" />
-                  <FilterInputForm heading="Industries Worked In" />
-                  <FilterInputForm heading="Experience Level" />
-                  <FilterInputForm heading="Job Type" />
-                  <FilterInputForm heading="Education" />
-                  <FilterInputForm heading="Availability" />
-                  <FilterInputForm heading="Languages" />
+                  <FilterInputForm heading="Contract Type" />
+                  <FilterInputForm heading="Field Of Work" />
                 </div>
               </Route>
             </Switch>

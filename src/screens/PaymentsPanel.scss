@@ -1,0 +1,19 @@
+@import "../App.scss";
+
+.payments__input__form__input__box {
+  display: flex;
+}
+
+.payments__input__form__input__field {
+  width: 300px;
+  margin-right: 0.5em;
+  background-color: $primary;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  max-height: 41px;
+}
+
+.payments__input__form__input__field__cta {
+  width: 100px;
+}
