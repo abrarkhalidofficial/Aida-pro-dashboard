@@ -7,7 +7,7 @@ export default class InputboxComponent extends React.Component {
       <Form.Control
         placeholder={this.props.placeholder}
         type={this.props.type}
-        className="input__box"
+        className={this.props.ClassName}
       />
     );
   }

@@ -11,10 +11,14 @@ export default class Login extends React.Component {
         <Form className="login__form">
           <div className="login__form__heading">Login</div>
           <div className="login__form__row">
-            <Inputbox placeholder="Email" type="email" />
+            <Inputbox placeholder="Email" type="email" ClassName="input__box" />
           </div>
           <div className="login__form__row">
-            <Inputbox placeholder="Password" type="password" />
+            <Inputbox
+              placeholder="Password"
+              type="password"
+              ClassName="input__box"
+            />
           </div>
           <div className="login__form__row__cta">
             <input

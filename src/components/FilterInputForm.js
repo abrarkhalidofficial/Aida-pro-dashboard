@@ -30,7 +30,7 @@ export default class FilterInputForm extends React.Component {
           </Button>
           <div className="filter__input__form__input__box">
             <div className="filter__input__form__input__field">
-              <InputboxComponent type="text" />
+              <InputboxComponent type="text" ClassName="input__box" />
             </div>
             <div className="filter__input__form__input__field__cta">
               <ButtonComponent

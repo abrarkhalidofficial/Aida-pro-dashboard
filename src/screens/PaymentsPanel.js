@@ -66,7 +66,7 @@ export default class PaymentsPanel extends React.Component {
                       </g>
                     </g>
                   </svg>
-                  <InputboxComponent type="text" />
+                  <InputboxComponent type="text" ClassName="search__box" />
                 </div>
                 <div className="payments__input__form__input__field__cta">
                   <ButtonComponent variant="btn" placeholder="Search" />

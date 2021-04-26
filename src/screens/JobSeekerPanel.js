@@ -16,7 +16,7 @@ export default class JobSeekerPanel extends React.Component {
                 <div className="panel__main__heading__row__entry">ID</div>
                 <div className="panel__main__heading__row__entry">Name</div>
                 <div className="panel__main__heading__row__entry">
-                  Job Applied
+                  Jobs Applied
                 </div>
                 <div className="panel__main__heading__row__entry">Location</div>
               </div>

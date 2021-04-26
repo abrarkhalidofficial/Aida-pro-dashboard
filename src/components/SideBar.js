@@ -146,7 +146,7 @@ export default class SideBar extends React.Component {
           <Nav.Item>
             <Nav.Link
               as={Link}
-              to="/dashboard/users-manager"
+              to="/dashboard/role-manager"
               className="nav__link__vertical"
               eventKey="link-4"
             >
@@ -174,7 +174,7 @@ export default class SideBar extends React.Component {
                   />
                 </g>
               </svg>
-              Users manager
+              Role manager
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>

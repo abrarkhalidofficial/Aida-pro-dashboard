@@ -9,7 +9,7 @@ import CompanyPanel from "./CompanyPanel";
 import FiltersPanel from "./FiltersPanel";
 import MessagesPanel from "./MessagesPanel";
 import PaymentsPanel from "./PaymentsPanel";
-import UsersManagerPanel from "./UsersManagerPanel";
+import RoleManagerPanel from "./RoleManagerPanel";
 import AnalysisPanel from "./AnalysisPanel";
 import PlansPanel from "./PlansPanel";
 import ReportsPanel from "./ReportsPanel";
@@ -33,8 +33,8 @@ export default class Dashboard extends React.Component {
             <Route path="/dashboard/companies">
               <CompanyPanel />
             </Route>
-            <Route path="/dashboard/users-manager">
-              <UsersManagerPanel />
+            <Route path="/dashboard/role-manager">
+              <RoleManagerPanel />
             </Route>
             <Route path="/dashboard/analysis">
               <AnalysisPanel />
