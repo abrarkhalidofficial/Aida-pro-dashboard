@@ -1,19 +1,12 @@
 import React from "react";
 import { Col, Row, Nav, Card } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import "./UserProfile.scss";
 import UserPic from "../assets/userPic.png";
 import placeholderpic from "../assets/HomeCompanyaddpic.png";
 import linkedinicon from "../assets/linkedin-auth-icon.png";
 import googleicon from "../assets/google-auth-icon.png";
 import facebookicon from "../assets/facebook-auth-icon.png";
-function isAddItemVideoCall() {
-  document.querySelector(".add__item__skill").style.display = "flex";
-}
-
-function closeFormVideoCall() {
-  document.querySelector(".add__item__skill").style.display = "none";
-}
 
 export default class UserProfile extends React.Component {
   render() {
