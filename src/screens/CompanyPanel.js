@@ -245,7 +245,7 @@ export default class CompanyPanel extends React.Component {
                       className="nav__link__horizontal"
                       eventKey="link-2"
                     >
-                      3{" "}
+                      3
                     </Nav.Link>
                     <Nav.Link
                       to="/dashboard/companies"
@@ -253,7 +253,7 @@ export default class CompanyPanel extends React.Component {
                       className="nav__link__horizontal"
                       eventKey="link-3"
                     >
-                      4{" "}
+                      4
                     </Nav.Link>
                     <Nav.Link
                       to="/dashboard/companies"
