@@ -11,6 +11,8 @@ import MessagesPanel from "./MessagesPanel";
 import PaymentsPanel from "./PaymentsPanel";
 import UsersManagerPanel from "./UsersManagerPanel";
 import AnalysisPanel from "./AnalysisPanel";
+import PlansPanel from "./PlansPanel";
+import ReportsPanel from "./ReportsPanel";
 
 export default function Dashboard() {
   return (
@@ -43,13 +45,13 @@ export default function Dashboard() {
             <PaymentsPanel />
           </Route>
           <Route path="/dashboard/plans">
-            <CompanyPanel />
+            <PlansPanel />
           </Route>
           <Route path="/dashboard/filters">
             <FiltersPanel />
           </Route>
           <Route path="/dashboard/reports">
-            <CompanyPanel />
+            <ReportsPanel />
           </Route>
         </Switch>
       </div>
