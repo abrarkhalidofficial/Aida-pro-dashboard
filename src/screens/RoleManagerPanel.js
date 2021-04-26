@@ -457,7 +457,7 @@ export default class RoleManagerPanel extends React.Component {
                     style={{ marginRight: "1em" }}
                   >
                     <InputBox
-                      placeholder="john Doe@gmail.com"
+                      placeholder="John Doe@gmail.com"
                       ClassName="input__box"
                       type="email"
                     />
