@@ -38,7 +38,14 @@ export default class MessagesPanel extends React.Component {
               <Messengers badges="3" />
               <Messengers />
               <Messengers />
+              <Messengers badges="8" />
               <Messengers />
+              <Messengers />
+              <Messengers />
+              <Messengers />
+              <Messengers />
+              <Messengers badges="2" />
+              <Messengers badges="5" />
               <Messengers />
               <Messengers />
               <Messengers />

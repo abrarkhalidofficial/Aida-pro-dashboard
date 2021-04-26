@@ -172,11 +172,4 @@ body {
   align-items: center;
 }
 
-@media (max-width: 700px) {
-  .sidebar__links {
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    justify-content: space-evenly !important;
-  }
-}
 @import "~bootstrap/scss/bootstrap";
