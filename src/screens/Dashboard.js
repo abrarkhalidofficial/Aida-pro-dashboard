@@ -19,11 +19,15 @@ export default class Dashboard extends React.Component {
     return (
       <div className="dasboard__container">
         <SideBar />
-        <div className="main">
-          <Switch>
-            <Route path="/dashboard" exact>
-              <DashboardPanel />
-            </Route>
+
+        <Switch>
+          <Route path="/dashboard" exact>
+            <DashboardPanel />
+          </Route>
+          <Route path="/dashboard/analysis">
+            <AnalysisPanel />
+          </Route>
+          <div className="main">
             <Route path="/dashboard/freelancer">
               <FreelancerPanel />
             </Route>
@@ -35,9 +39,6 @@ export default class Dashboard extends React.Component {
             </Route>
             <Route path="/dashboard/role-manager">
               <RoleManagerPanel />
-            </Route>
-            <Route path="/dashboard/analysis">
-              <AnalysisPanel />
             </Route>
             <Route path="/dashboard/messages">
               <MessagesPanel />
@@ -54,8 +55,8 @@ export default class Dashboard extends React.Component {
             <Route path="/dashboard/reports">
               <ReportsPanel />
             </Route>
-          </Switch>
-        </div>
+          </div>
+        </Switch>
       </div>
     );
   }
