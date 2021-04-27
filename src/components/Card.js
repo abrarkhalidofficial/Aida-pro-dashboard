@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Card() {
+export default function Card({ heading, infoHeading, infoContent, children }) {
   return (
     <div className="panel__card">
       <div className="panel__card__heading__row">
-        <div className="panel__card__heading">Filters</div>
+        <div className="panel__card__heading">{heading}</div>
         <div className="panel__card__about">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 7.916">
             <g
@@ -31,13 +31,12 @@ export default function Card() {
             </g>
           </svg>
           <div className="panel__card__info">
-            <div className="panel__card__info__heading">lorem</div>
-            <div className="panel__card__info__content">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </div>
+            <div className="panel__card__info__heading">{infoHeading}</div>
+            <div className="panel__card__info__content">{infoContent}</div>
           </div>
         </div>
       </div>
+      {children}
     </div>
   );
 }

@@ -201,11 +201,12 @@ body {
 }
 
 .panel__card {
-  padding: 2em;
+  padding: 1.5em 2em;
   background-color: #ffffff;
   border-radius: 10px;
   flex: 1;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  margin: 0em 1em;
 }
 .panel__card__heading__row {
   display: flex;
@@ -231,6 +232,7 @@ body {
   justify-content: center;
   cursor: pointer;
   position: relative;
+  z-index: 2;
 }
 .panel__card__about svg {
   width: 13px;
