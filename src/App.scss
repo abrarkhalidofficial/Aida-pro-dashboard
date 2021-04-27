@@ -260,5 +260,19 @@ body {
   transition: 100ms ease-in-out;
   display: flex;
 }
+.panel__card__content__heading__row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.panel__card__content__heading {
+  font-size: $heading-font-size + 7;
+  color: darken($font-color, 20%);
+  font-weight: 900;
+}
+.panel__card__content__info {
+  font-size: $normal-font-size - 2;
+  color: #5f778a;
+}
 
 @import "~bootstrap/scss/bootstrap";

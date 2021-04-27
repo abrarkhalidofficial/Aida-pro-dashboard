@@ -1,6 +1,13 @@
 import React from "react";
 
-export default function Card({ heading, infoHeading, infoContent, children }) {
+export default function Card({
+  heading,
+  infoHeading,
+  infoContent,
+  children,
+  contentHeading,
+  contentInfo,
+}) {
   return (
     <div className="panel__card">
       <div className="panel__card__heading__row">
@@ -36,7 +43,17 @@ export default function Card({ heading, infoHeading, infoContent, children }) {
           </div>
         </div>
       </div>
-      {children}
+      <div className="panel__card__content__row">
+        {contentHeading ? (
+          <div className="panel__card__content__heading__row">
+            <div className="panel__card__content__heading">
+              {contentHeading}
+            </div>
+            <div className="panel__card__content__info">{contentInfo}</div>
+          </div>
+        ) : null}
+        {children}
+      </div>
     </div>
   );
 }
