@@ -92,7 +92,7 @@ export default class DashboardPanel extends React.Component {
           </Card>
         </div>
         <div className="panel__conatainer__empty__row">
-          <div style={{ width: "50%" }}>
+          <div className="panel__conatainer__empty__row__half">
             <Card
               heading="Lorem"
               infoHeading="Lorem"

@@ -6,6 +6,9 @@
   margin-bottom: 2em;
   height: 100%;
 }
+.panel__conatainer__empty__row__half {
+  width: 50%;
+}
 .message__panel__small {
   display: flex;
   flex-direction: column;
@@ -50,6 +53,9 @@
 @media (max-width: 700px) {
   .panel__conatainer__empty__row {
     flex-direction: column;
+  }
+  .panel__conatainer__empty__row__half {
+    width: 100%;
   }
   .message__card__col {
     width: 100%;
