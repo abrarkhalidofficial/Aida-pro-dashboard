@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 2em;
+  width: 100%;
 }
 
 .company__details__row__attribute {
@@ -29,4 +30,23 @@
   color: $font-color;
   font-size: $normal-font-size + 3;
   font-weight: 800;
+}
+.company__details__row__input__box {
+  width: 500px;
+}
+@media (max-width: 700px) {
+  .company__details__row {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .company__details__row__attribute {
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  .company__details__row__value {
+    margin-bottom: 1em;
+  }
+  .company__details__row__input__box {
+    width: 100%;
+  }
 }
