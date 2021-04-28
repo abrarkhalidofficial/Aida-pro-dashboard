@@ -49,35 +49,35 @@ export default class PostingRows extends React.Component {
             </Row>
             <Row className="table__data__row">
               <Nav.Link
-                to="/dashboard/companies/details/applicant-details"
+                to="/dashboard/companies/details/applicant-profile"
                 as={Link}
                 className="title table__data"
               >
                 <Col>Sales Manager</Col>
               </Nav.Link>
               <Nav.Link
-                to="/dashboard/companies/details/applicant-details"
+                to="/dashboard/companies/details/applicant-profile"
                 as={Link}
                 className="applicants table__data"
               >
                 <Col>10</Col>
               </Nav.Link>
               <Nav.Link
-                to="/dashboard/companies/details/applicant-details"
+                to="/dashboard/companies/details/applicant-profile"
                 as={Link}
                 className="interested table__data"
               >
                 <Col>2</Col>
               </Nav.Link>
               <Nav.Link
-                to="/dashboard/companies/details/applicant-details"
+                to="/dashboard/companies/details/applicant-profile"
                 as={Link}
                 className="visitors table__data"
               >
                 <Col>7</Col>
               </Nav.Link>
               <Nav.Link
-                to="/dashboard/companies/details/applicant-details"
+                to="/dashboard/companies/details/applicant-profile"
                 as={Link}
                 className="date-created table__data"
               >
@@ -87,7 +87,7 @@ export default class PostingRows extends React.Component {
                 <Status value={this.props.status} />
               </Col>
               <Nav.Link
-                to="/dashboard/companies/details/applicant-details"
+                to="/dashboard/companies/details/applicant-profile"
                 as={Link}
                 className="applicants table__data"
               >

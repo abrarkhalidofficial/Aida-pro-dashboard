@@ -138,7 +138,7 @@ export default class Posting extends React.Component {
             <Col className="visitors table__heading">Visitors</Col>
             <Col className="date-created table__heading">Created</Col>
             <Col className="state table__heading">Status</Col>
-            <Col className="edits table__heading">Edits</Col>
+            <Col className="edits table__heading">Date</Col>
           </Row>
           <PostingRow status="live" />
           <PostingRow status="live" />

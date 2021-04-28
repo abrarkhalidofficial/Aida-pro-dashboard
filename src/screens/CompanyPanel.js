@@ -1,6 +1,6 @@
 import React from "react";
 import "./CompanyPanel.scss";
-import { Nav } from "react-bootstrap";
+import { Nav, Row, Col, Button, Form } from "react-bootstrap";
 import { Switch, Route, Link } from "react-router-dom";
 import CompanyDetails from "./CompanyDetails";
 
