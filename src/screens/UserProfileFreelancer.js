@@ -112,6 +112,24 @@ export default class UserProfile extends React.Component {
               <div className="user-profile-btn-text">Message</div>
             </Nav.Link>
           </Col>
+          <Col
+            style={{
+              padding: ".5em 0em",
+              maxWidth: "fit-content",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              marginLeft: ".5em",
+            }}
+          >
+            <Nav.Link
+              as={Link}
+              to="/dashboard/freelancer/personal"
+              className="user__profile__messanger"
+            >
+              <div className="user-profile-btn-text">Edit</div>
+            </Nav.Link>
+          </Col>
         </Row>
         <Row style={{ padding: "1em 0em" }}>
           <Nav variant="pills" defaultActiveKey="/dashboard/freelancer/details">

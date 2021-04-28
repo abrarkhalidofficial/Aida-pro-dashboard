@@ -58,6 +58,15 @@ body {
 .search__box:focus {
   border-bottom-color: $dark !important;
 }
+.upload__btn__row {
+  min-width: 30%;
+  margin: 0em auto;
+  margin-top: 1em;
+}
+.save__btn__row {
+  min-width: 50%;
+  margin: 0em auto;
+}
 .btn__cta {
   background-color: $dark !important;
   border: none !important;
@@ -73,6 +82,22 @@ body {
 }
 .btn__cta:hover {
   background-color: darken($dark, 10%) !important;
+}
+.btn__cta__upload {
+  background-color: $font-color !important;
+  border: none !important;
+  height: 40px !important;
+  font-size: $normal-font-size !important;
+  cursor: pointer;
+  color: $primary !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 5px !important;
+}
+.btn__cta__upload:hover {
+  background-color: darken($font-color, 10%) !important;
 }
 .btn__cta__reverse {
   background-color: #a70000 !important;
@@ -280,6 +305,9 @@ body {
     height: 500px;
     margin: 0;
     margin-bottom: 2em;
+  }
+  .save__btn__row {
+    margin-top: 1em;
   }
 }
 

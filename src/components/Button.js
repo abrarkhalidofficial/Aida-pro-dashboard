@@ -17,6 +17,12 @@ export default class ButtonComponent extends React.Component {
           {this.props.placeholder}
         </Nav.Link>
       );
+    } else if (variant === "upload-btn") {
+      return (
+        <Button className="btn__cta__upload" onClick={this.props.onClick}>
+          {this.props.placeholder}
+        </Button>
+      );
     }
   }
 }

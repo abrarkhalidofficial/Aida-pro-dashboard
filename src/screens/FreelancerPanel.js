@@ -10,9 +10,10 @@ import Select from "react-select";
 export default class FreelancerPanel extends React.Component {
   render() {
     const selectOptions = [
-      { value: "chocolate", label: "Chocolate" },
-      { value: "strawberry", label: "Strawberry" },
-      { value: "vanilla", label: "Vanilla" },
+      { value: "Germany", label: "Germany" },
+      { value: "English", label: "English" },
+      { value: "Russian", label: "Russian" },
+      { value: "Hindi", label: "Hindi" },
     ];
     return (
       <div className="panel__conatainer">
@@ -214,7 +215,7 @@ export default class FreelancerPanel extends React.Component {
               </div>
             </div>
           </Route>
-          <Route path="/dashboard/freelancer/details/freelancer-details">
+          <Route path="/dashboard/freelancer/personal">
             <div className="company__details__content">
               <div className="company__details__row">
                 <div className="company__details__row__attribute">
@@ -700,15 +701,24 @@ export default class FreelancerPanel extends React.Component {
                     isMulti
                     name="colors"
                     options={selectOptions}
-                    className="input__box"
+                    className="select"
                     classNamePrefix="select"
                   />
                 </div>
               </div>
 
               <div className="company__details__row">
-                <ButtonComponent variant="btn" placeholder="Upload Photo" />
-                <ButtonComponent variant="btn" placeholder="Save" />
+                <div className="upload__btn__row">
+                  <ButtonComponent
+                    variant="upload-btn"
+                    placeholder="Upload Photo"
+                  />
+                </div>
+              </div>
+              <div className="company__details__row">
+                <div className="save__btn__row">
+                  <ButtonComponent variant="btn" placeholder="Save" />
+                </div>
               </div>
             </div>
           </Route>
