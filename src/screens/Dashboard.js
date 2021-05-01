@@ -19,7 +19,6 @@ export default class Dashboard extends React.Component {
     return (
       <div className="dasboard__container">
         <SideBar />
-
         <Switch>
           <Route path="/dashboard" exact>
             <DashboardPanel />
