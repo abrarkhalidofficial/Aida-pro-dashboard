@@ -5,18 +5,13 @@ import InputboxComponent from "./Inputbox";
 
 export default class FilterInputForm extends React.Component {
   render() {
+    const filterID = this.props.filterId;
     function isOpen() {
-      if (
-        document.querySelector(".filter__input__form__input__box").style
-          .display === "none"
-      ) {
-        document.querySelector(
-          ".filter__input__form__input__box"
-        ).style.display = "flex";
+      const filter_id = document.getElementById(filterID);
+      if (filter_id.style.display === "none") {
+        filter_id.style.display = "flex";
       } else {
-        document.querySelector(
-          ".filter__input__form__input__box"
-        ).style.display = "none";
+        filter_id.style.display = "none";
       }
     }
     return (
@@ -28,7 +23,7 @@ export default class FilterInputForm extends React.Component {
           <Button className="filter__input__form__cta" onClick={isOpen}>
             + Add
           </Button>
-          <div className="filter__input__form__input__box">
+          <div className="filter__input__form__input__box" id={filterID}>
             <div className="filter__input__form__input__field">
               <InputboxComponent type="text" ClassName="input__box" />
             </div>

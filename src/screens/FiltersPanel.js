@@ -43,24 +43,39 @@ export default class FiltersPanel extends React.Component {
               <Switch>
                 <Route path="/dashboard/filters" exact>
                   <div className="filter__content">
-                    <FilterInputForm heading="Skills" />
-                    <FilterInputForm heading="Industries Worked In" />
-                    <FilterInputForm heading="Experience Level" />
-                    <FilterInputForm heading="Job Type" />
-                    <FilterInputForm heading="Education" />
-                    <FilterInputForm heading="Availability" />
-                    <FilterInputForm heading="Languages" />
+                    <FilterInputForm heading="Skills" filterId="filter_1" />
+                    <FilterInputForm
+                      heading="Industries Worked In"
+                      filterId="filter_2"
+                    />
+                    <FilterInputForm
+                      heading="Experience Level"
+                      filterId="filter_3"
+                    />
+                    <FilterInputForm heading="Job Type" filterId="filter_4" />
+                    <FilterInputForm heading="Education" filterId="filter_5" />
+                    <FilterInputForm
+                      heading="Availability"
+                      filterId="filter_6"
+                    />
+                    <FilterInputForm heading="Languages" filterId="filter_7" />
                   </div>
                 </Route>
                 <Route path="/dashboard/filters/jobseeker">
                   <div className="filter__content">
-                    <FilterInputForm heading="Skills" />
+                    <FilterInputForm heading="Skills" filterId="filter_8" />
                   </div>
                 </Route>
                 <Route path="/dashboard/filters/freelancer">
                   <div className="filter__content">
-                    <FilterInputForm heading="Contract Type" />
-                    <FilterInputForm heading="Field Of Work" />
+                    <FilterInputForm
+                      heading="Contract Type"
+                      filterId="filter_9"
+                    />
+                    <FilterInputForm
+                      heading="Field Of Work"
+                      filterId="filter_10"
+                    />
                   </div>
                 </Route>
               </Switch>
