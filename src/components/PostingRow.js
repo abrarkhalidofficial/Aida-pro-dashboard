@@ -89,7 +89,7 @@ export default class PostingRows extends React.Component {
               <Nav.Link
                 to="/dashboard/companies/details/applicant-profile"
                 as={Link}
-                className="applicants table__data"
+                className="date table__data"
               >
                 <Col>6/4/21</Col>
               </Nav.Link>
