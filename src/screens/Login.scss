@@ -43,6 +43,7 @@
     position: relative;
     cursor: pointer;
     padding: 0;
+    user-select: none;
   }
 
   // Box.
@@ -89,7 +90,7 @@
     content: "";
     position: absolute;
     left: 5px;
-    top: 12px;
+    top: 9.2px;
     background: white;
     width: 2px;
     height: 2px;
