@@ -32,11 +32,7 @@ bash
 
 
 
-## Roadmap
 
-- Pricing Page
-
-- Services Details
 
 
 ## Screenshots
